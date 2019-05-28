@@ -1,0 +1,163 @@
+@font-face {
+		font-family: Roboto;
+		src: url(../font/Roboto.ttf);
+}
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	word-break: break-word;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-color: #9DCBEC;
+	font-family: Roboto;
+	font-size: 2.8vmin;
+}
+h2 {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+.desativado {
+	display: none;
+}
+.botao {
+	position: fixed;
+	height: 15.27vmin;
+	width: 45.80vmin;
+	border-radius: 3.82vmin;
+	font-family: Roboto;
+	letter-spacing: -0.76vmin;
+	color: #DBFAE9;
+	background-color: #59AA67;
+	cursor: pointer;
+}
+#logo {
+	position: fixed;
+	top: 0;
+	left: calc((100vw - 208.55vmin) / 2);
+	height: 76.34vmin;
+	width: 208.55vmin;
+}
+#botao_creditos {
+	height: 7.77vmin;
+	width: 23.30vmin;
+	border-radius: 2vmin;
+	font-size: 5vmin;
+	top: 0vmin;
+	right: 0vmin;
+	background-color: #E52616;
+}
+#botao_voltar {
+	font-size: 8vmin;
+	top: 68.70vmin;
+	left: calc(50vw - 22.90vmin);
+	background-color: #E52616;
+}
+#botao_jogar {
+	top: 76.34vmin;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-size: 10.69vmin;
+}
+#botao_ganhou {
+	font-size: 6.11vmin;
+	top: 68.70vmin;
+	left: calc(50vw - 22.90vmin);
+}
+#botao_perdeu {
+	font-size: 6.11vmin;
+	top: 68.70vmin;
+	left: calc(50vw - 22.90vmin);
+	background-color: #E52616;
+}
+.casa {
+	float: left;
+	height: 14.96vmin;
+	width: 14.96vmin;
+	border-radius: 1.53vmin;
+	border: 0.15vmin solid black;
+	background-color: #59AA67;
+	cursor: pointer;
+	text-align: center;
+	line-height: 14.96vmin;
+	font-size: 6.11vmin;
+	color: #DBFAE9;
+	letter-spacing: -0.76vmin;
+}
+.casa_nova_papagaio {
+	float: left;
+	height: 14.96vmin;
+	width: 14.96vmin;
+	border-radius: 1.53vmin;
+	border: 0.15vmin solid black;
+	background-color: #FCBF79;
+	background-image: url('../img/papagaio.png');
+	background-size: 14.96vmin 14.96vmin;
+}
+.casa_papagaio {
+	float: left;
+	height: 14.96vmin;
+	width: 14.96vmin;
+	border-radius: 1.53vmin;
+	border: 0.15vmin solid black;
+	background-color: #808080;
+	background-image: url('../img/papagaiopb.png');
+	background-size: 14.96vmin 14.96vmin;
+}
+.casa_bau {
+	float: left;
+	height: 14.96vmin;
+	width: 14.96vmin;
+	border-radius: 1.53vmin;
+	border: 0.15vmin solid black;
+	background-color: #FCBF79;
+	background-image: url('../img/bau.png');
+	background-size: 14.96vmin 14.96vmin;
+}
+.casa_pirata {
+	float: left;
+	height: 14.96vmin;
+	width: 14.96vmin;
+	border-radius: 1.53vmin;
+	border: 0.15vmin solid black;
+	background-color: #FCBF79;
+	background-image: url('../img/pirata.png');
+	background-size: 14.96vmin 14.96vmin;
+}
+#dica {
+	float: right;
+	height: 88.24vmin;
+	width: 52.52vmin;
+	padding: 1.53vmin;
+	border-radius: 1.53vmin;
+	border: 0.15vmin solid black;
+	background-color: #B1DFFF;
+	font-size: 3.05vmin;
+	color: black;
+}
+.janela {
+	position: fixed;
+	height: 73.28vmin;
+	width: 73.28vmin;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	padding: 1.53vmin;
+	border-radius: 1.53vmin;
+	border: 0.76vmin outset #8A8E7D;
+	background-color: #EEF2E1;
+}
+.imagem {
+	position: relative;
+	height: 53.44vmin;
+	width: 53.44vmin;
+	left: 9.92vmin;
+}
